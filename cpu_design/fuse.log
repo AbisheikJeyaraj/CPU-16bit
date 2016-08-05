@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Test_CPU_Design_2_isim_beh.exe -prj C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Test_CPU_Design_2_beh.prj work.Test_CPU_Design_2 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Shifter_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Mux_2to1.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Logic_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Controller.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Arithmetic_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/And_2.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Register_C.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Register_B.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Register_A.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Program_Counter.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Mux2to1.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Instruction_Register.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Instruction_Memory.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Data_Memory.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/CPU_Controller.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/CPU_Design.vhd" into library work
+Parsing VHDL file "C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Test_CPU_Design_2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity CPU_Controller [cpu_controller_default]
+Compiling architecture behavioral of entity Instruction_Register [instruction_register_default]
+Compiling architecture behavioral of entity Instruction_Memory [instruction_memory_default]
+Compiling architecture behavioral of entity Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity Mux2to1 [mux2to1_default]
+Compiling architecture behavioral of entity Register_A [register_a_default]
+Compiling architecture behavioral of entity Register_B [register_b_default]
+Compiling architecture behavioral of entity Register_C [register_c_default]
+Compiling architecture behavioral of entity Controller [controller_default]
+Compiling architecture behavioral of entity Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity Shifter_Unit [shifter_unit_default]
+Compiling architecture behavioral of entity Logic_Unit [logic_unit_default]
+Compiling architecture behavioral of entity Mux_2to1 [mux_2to1_default]
+Compiling architecture behavioral of entity And_2 [and_2_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Data_Memory [data_memory_default]
+Compiling architecture structural of entity CPU_Design [cpu_design_default]
+Compiling architecture behavior of entity test_cpu_design_2
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 40 VHDL Units
+Built simulation executable C:/Users/jayarajaperua7173/Dropbox/Study Material/Summer-2016/ADSD/CENG5534_FinalProject_Group1/CPU_Design/Test_CPU_Design_2_isim_beh.exe
+Fuse Memory Usage: 38016 KB
+Fuse CPU Usage: 763 ms

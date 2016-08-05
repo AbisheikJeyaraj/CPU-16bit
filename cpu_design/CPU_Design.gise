@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CPU_Design.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Program_Counter_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_CPU_Controller_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_CPU_Design_2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_CPU_Design_2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Test_CPU_Design_2_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_CPU_Design_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_CPU_Design_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Test_CPU_Design_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test_CPU_Design_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Data_Memory_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Instruction_Memory_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Instruction_Register_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Program_Counter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1469468003" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1469468003">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485738" xil_pn:in_ck="-2856204100242829272" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1469485738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="And_2.vhd"/>
+      <outfile xil_pn:name="Arithmetic_Unit.vhd"/>
+      <outfile xil_pn:name="CPU_Controller.vhd"/>
+      <outfile xil_pn:name="CPU_Design.vhd"/>
+      <outfile xil_pn:name="Controller.vhd"/>
+      <outfile xil_pn:name="Data_Memory.vhd"/>
+      <outfile xil_pn:name="Instruction_Memory.vhd"/>
+      <outfile xil_pn:name="Instruction_Register.vhd"/>
+      <outfile xil_pn:name="Logic_Unit.vhd"/>
+      <outfile xil_pn:name="Mux2to1.vhd"/>
+      <outfile xil_pn:name="Mux_2to1.vhd"/>
+      <outfile xil_pn:name="Program_Counter.vhd"/>
+      <outfile xil_pn:name="Register_A.vhd"/>
+      <outfile xil_pn:name="Register_B.vhd"/>
+      <outfile xil_pn:name="Register_C.vhd"/>
+      <outfile xil_pn:name="Shifter_Unit.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Controller.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Design.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Design_2.vhd"/>
+      <outfile xil_pn:name="Test_Data_Memory.vhd"/>
+      <outfile xil_pn:name="Test_Instruction_Memory.vhd"/>
+      <outfile xil_pn:name="Test_Instruction_Register.vhd"/>
+      <outfile xil_pn:name="Test_Mux2to1.vhd"/>
+      <outfile xil_pn:name="Test_Program_Counter.vhd"/>
+      <outfile xil_pn:name="Test_Register_A.vhd"/>
+      <outfile xil_pn:name="Test_Register_B.vhd"/>
+      <outfile xil_pn:name="Test_Register_C.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485738" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="555447935276531815" xil_pn:start_ts="1469485738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485738" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2328718594205815337" xil_pn:start_ts="1469485738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485698" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7777157055344050622" xil_pn:start_ts="1469485698">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485738" xil_pn:in_ck="-2856204100242829272" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1469485738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="And_2.vhd"/>
+      <outfile xil_pn:name="Arithmetic_Unit.vhd"/>
+      <outfile xil_pn:name="CPU_Controller.vhd"/>
+      <outfile xil_pn:name="CPU_Design.vhd"/>
+      <outfile xil_pn:name="Controller.vhd"/>
+      <outfile xil_pn:name="Data_Memory.vhd"/>
+      <outfile xil_pn:name="Instruction_Memory.vhd"/>
+      <outfile xil_pn:name="Instruction_Register.vhd"/>
+      <outfile xil_pn:name="Logic_Unit.vhd"/>
+      <outfile xil_pn:name="Mux2to1.vhd"/>
+      <outfile xil_pn:name="Mux_2to1.vhd"/>
+      <outfile xil_pn:name="Program_Counter.vhd"/>
+      <outfile xil_pn:name="Register_A.vhd"/>
+      <outfile xil_pn:name="Register_B.vhd"/>
+      <outfile xil_pn:name="Register_C.vhd"/>
+      <outfile xil_pn:name="Shifter_Unit.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Controller.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Design.vhd"/>
+      <outfile xil_pn:name="Test_CPU_Design_2.vhd"/>
+      <outfile xil_pn:name="Test_Data_Memory.vhd"/>
+      <outfile xil_pn:name="Test_Instruction_Memory.vhd"/>
+      <outfile xil_pn:name="Test_Instruction_Register.vhd"/>
+      <outfile xil_pn:name="Test_Mux2to1.vhd"/>
+      <outfile xil_pn:name="Test_Program_Counter.vhd"/>
+      <outfile xil_pn:name="Test_Register_A.vhd"/>
+      <outfile xil_pn:name="Test_Register_B.vhd"/>
+      <outfile xil_pn:name="Test_Register_C.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485743" xil_pn:in_ck="-2856204100242829272" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6529375354222828656" xil_pn:start_ts="1469485738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Test_CPU_Design_2_beh.prj"/>
+      <outfile xil_pn:name="Test_CPU_Design_2_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1469485757" xil_pn:in_ck="358410434119272608" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5914943474431073539" xil_pn:start_ts="1469485757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Test_CPU_Design_2_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>
